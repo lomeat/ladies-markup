@@ -14,3 +14,48 @@
   position: relative;
   width: 100%;
 }
+
+// Main
+
+main {
+  padding-top: 56px;
+  position: relative;
+}
+
+.bs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+// header
+
+.bs-header {
+  display: flex;
+  width: 1110px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1.name {
+  color: $color;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.arrows-wrapper {
+  display: flex;
+
+  .arrow {
+    &-right {
+      margin-left: 6px;
+    }
+  }
+}
+
+// list
+
+.bs-list {
+  display: flex;
+  padding-top: 60px;
+}
