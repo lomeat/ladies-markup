@@ -4,6 +4,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import sveltePreprocess from "svelte-preprocess";
+import svelteSVG from "rollup-plugin-svelte-svg";
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -16,6 +17,7 @@ export default {
     file: "public/build/bundle.js",
   },
   plugins: [
+    svelteSVG(),
     svelte({
       dev: !production,
       css: (css) => {
