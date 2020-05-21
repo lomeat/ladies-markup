@@ -1,7 +1,7 @@
 <script>
   import Button from "./Button.svelte";
   import Header from "./Header.svelte";
-  import Card from "./Card.svelte";
+  import BestSellers from "./BestSellers.svelte";
 
   import FilterIcon from "./icons/filter.svg";
   import ArrowIcon from "./icons/arrow.svg";
@@ -12,37 +12,7 @@
   <div class="back-blue-square" />
   <Header />
   <main>
-    <div class="bs">
-      <div class="bs-header">
-        <h1 class="name">Best Sellers</h1>
-        <div class="filter">
-          <Button class="shadow filter">
-            <FilterIcon width="22" />
-          </Button>
-        </div>
-        <div class="arrows-wrapper">
-          <div class="arrow arrow-left">
-            <Button class="arrow">
-              <ArrowIcon width="20" />
-            </Button>
-          </div>
-          <div class="arrow arrow-right">
-            <Button class="arrow deactive">
-              <ArrowDeactiveIcon width="20" />
-            </Button>
-          </div>
-        </div>
-      </div>
-
-      <div class="bs-list">
-        <Card active />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
-    </div>
+    <BestSellers />
     <div class="acc" />
   </main>
 </div>
