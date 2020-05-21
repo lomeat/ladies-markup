@@ -28,6 +28,10 @@
     }
   }
 
+  .active {
+    background: $bg-button-active;
+  }
+
   .shadow {
     box-shadow: 0px 20px 20px $shadow-color;
   }

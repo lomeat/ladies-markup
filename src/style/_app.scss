@@ -59,3 +59,49 @@ h1.name {
   display: flex;
   padding-top: 60px;
 }
+
+.card {
+  width: 400px;
+  height: 640px;
+  padding: 8px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  margin-left: 40px;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  color: $color;
+  background: $bg-card;
+  border-radius: 32px;
+  padding: 38px;
+  position: relative;
+
+  .name {
+    font-size: 32px;
+    font-weight: bold;
+
+    &-second {
+      font-size: 18px;
+      font-weight: lighter;
+    }
+  }
+
+  .price {
+    padding-top: 30px;
+  }
+
+  .add {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+}
