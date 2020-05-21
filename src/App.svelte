@@ -1,11 +1,11 @@
 <script>
   import Button from "./Button.svelte";
   import Header from "./Header.svelte";
+  import Card from "./Card.svelte";
 
   import FilterIcon from "./icons/filter.svg";
   import ArrowIcon from "./icons/arrow.svg";
   import ArrowDeactiveIcon from "./icons/arrowDeactive.svg";
-  import PlusIcon from "./icons/plus.svg";
 </script>
 
 <div class="wrapper">
@@ -35,21 +35,7 @@
       </div>
 
       <div class="bs-list">
-        <div class="card">
-          <img
-            src={`https://img.icons8.com/dusk/100/000000/document.png`}
-            alt="card" />
-          <div class="details">
-            <h2 class="name">Face Mask</h2>
-            <span class="name-second">Grape Fruit</span>
-            <span class="price">$16.00</span>
-            <div class="add">
-              <Button class="shadow">
-                <PlusIcon width="20" />
-              </Button>
-            </div>
-          </div>
-        </div>
+        <Card />
       </div>
     </div>
     <div class="acc" />
