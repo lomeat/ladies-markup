@@ -19,5 +19,22 @@
 
 main {
   padding-top: 56px;
-  position: relative;
+  display: flex;
+}
+
+.acc {
+  width: 490px;
+  color: $color;
+  margin-left: 100px;
+
+  .name {
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+
+.acc-list {
+  margin-top: 86px;
+  display: flex;
+  flex-direction: column;
 }

@@ -13,7 +13,21 @@
   <Header />
   <main>
     <BestSellers />
-    <div class="acc" />
+    <div class="acc">
+      <h2 class="name">Accessories</h2>
+      <div class="acc-list">
+        <div class="acc-card">
+          <div class="price">$19.00</div>
+          <img
+            src={`https://img.icons8.com/dusk/100/000000/document.png`}
+            alt="card" />
+          <div class="card-names-wrapper">
+            <div class="card-name">Watch+</div>
+            <div class="card-name-second">Trending 2020</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 </div>
 
