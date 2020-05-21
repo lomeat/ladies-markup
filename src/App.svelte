@@ -35,6 +35,11 @@
       </div>
 
       <div class="bs-list">
+        <Card active />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
         <Card />
       </div>
     </div>

@@ -58,4 +58,6 @@ h1.name {
 .bs-list {
   display: flex;
   padding-top: 60px;
+  overflow-x: scroll;
+  width: 1110px;
 }

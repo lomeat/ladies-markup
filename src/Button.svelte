@@ -1,9 +1,10 @@
 <script>
   export let className;
+  export let active;
   export { className as class };
 </script>
 
-<button on:click class={className}>
+<button on:click class={className} class:active>
   <slot />
 </button>
 
@@ -30,6 +31,7 @@
 
   .active {
     background: $bg-button-active;
+    box-shadow: none;
   }
 
   .shadow {

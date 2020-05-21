@@ -1,5 +1,13 @@
+.active {
+  .details {
+    background: $bg-card-active;
+    color: $color-active;
+  }
+}
+
 .card {
-  width: 400px;
+  width: 380px;
+  min-width: 380px;
   height: 640px;
   padding: 8px;
   border-radius: 40px;
@@ -12,6 +20,13 @@
   &:first-child {
     margin: 0;
   }
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  image-rendering: pixelated;
+  padding: 100px;
 }
 
 .details {
